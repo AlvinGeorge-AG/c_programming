@@ -1,0 +1,6 @@
+{
+    "editor.fontSize": 17,
+    "files.associations": {
+        "stdio.h": "c"
+    }
+}
