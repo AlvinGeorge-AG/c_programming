@@ -26,4 +26,5 @@ void main()
         printf("Salary: %lf\n",e[i].salary);
         printf("\n");
     }
+    k
 }
