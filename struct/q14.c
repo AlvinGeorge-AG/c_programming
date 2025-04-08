@@ -25,6 +25,5 @@ void main()
         printf("Employee id: %d\n",e[i].e_id);
         printf("Salary: %lf\n",e[i].salary);
         printf("\n");
-    }
-    k
+    } 
 }
