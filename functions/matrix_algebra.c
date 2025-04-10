@@ -29,8 +29,9 @@ int matrix_transpose(int row, int col, int Matrix[row][col]){
 }
 void matrix_add(int row, int col,int row2, int col2, int Matrix[row][col], int Matrix2[row][col]){
 
-    if(row!=row2 && col!=col2){
-        return printf("Addition not possible !!\n");
+    if(row!=row2 && col!=col2){ 
+        printf("Addition not possible !!\n");
+        return 0;
     }
     int result[row][col];
     for(int i=0;i<row;i++){
