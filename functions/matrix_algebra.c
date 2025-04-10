@@ -29,9 +29,15 @@ int matrix_transpose(int row, int col, int Matrix[row][col]){
 }
 void matrix_add(int row, int col,int row2, int col2, int Matrix[row][col], int Matrix2[row][col]){
 
+<<<<<<< HEAD
     if(row!=row2 && col!=col2){ 
         printf("Addition not possible !!\n");
         return 0;
+=======
+    if(row!=row2 && col!=col2){
+        printf("Addition not possible !!\n");
+        return ;
+>>>>>>> 9c48f2f (Remove unnecessary VSCode configuration files and improve matrix addition error handling)
     }
     int result[row][col];
     for(int i=0;i<row;i++){
